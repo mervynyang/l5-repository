@@ -1,0 +1,35 @@
+{
+  "name": "l5-repository",
+  "version": "0.0.2",
+  "description": "基于php composer包andersonandra.de/l5-repository的搜索功能插件",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "shx rm -rf dist",
+    "test": "jest --config jestconfig.json",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mervynyang/l5-repository.git"
+  },
+  "keywords": [
+    "fetch",
+    "http client"
+  ],
+  "author": "MervynYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mervynyang/l5-repository/issues"
+  },
+  "homepage": "https://github.com/mervynyang/l5-repository#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "cpr": "^3.0.1",
+    "jest": "^24.9.0",
+    "shx": "^0.3.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  }
+}
